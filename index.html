@@ -1,0 +1,20 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="budgetPlanner.js"></script> 
+</head>
+<body>
+
+    Food Budget: <input type="number" placeholder="0" name="foodBudget" id="foodBudget"> <br>
+    Transport Budget: <input type="number" placeholder="0" name="transportBudget" id="transportBudget"> <br>
+    Facility Budget: <input type="number" placeholder="0" name="facilityBudget" id="facilityBudget"> <br>
+
+      
+    <button onclick="annualBudget(parseInt(document.getElementById('foodBudget').value),
+    parseInt(document.getElementById('transportBudget').value),
+    parseInt(document.getElementById('facilityBudget').value))">Annual Budget</button>    
+     
+</body>
+</html>
